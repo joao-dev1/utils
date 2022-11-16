@@ -1,0 +1,4 @@
+function pokemondle(){
+
+    alert("pokemondle");
+}
