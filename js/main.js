@@ -10,7 +10,7 @@ function pokemondle_SearchForName(name_pokemon){
    fetch(`https://pokeapi.co/api/v2/pokemon/${name_pokemon}`)
     .then(T => T.json())
     .then(j=>{
-        console.log(j.Tsprites.front_default);
+        console.log(j.sprites.front_default);
     })
 
 
