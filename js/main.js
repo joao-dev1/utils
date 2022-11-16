@@ -10,7 +10,11 @@ function pokemondle_SearchForName(name_pokemon){
    fetch(`https://pokeapi.co/api/v2/pokemon/${name_pokemon}`)
     .then(T => T.json())
     .then(j=>{
+        var img_namePokemon = document.getElementById('img_pokemon');
         console.log(j.sprites.front_default);
+        img_namePokemon.src = j.sprites.front_default;
+        img_namePokemon.style.width = "50px";
+        img_namePokemon.style.height = "50px";
     })
 
 
