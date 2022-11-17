@@ -17,7 +17,6 @@ async function pokemondle_SearchForName(name_pokemon){
     .then(data=>{
         
         var img_namePokemon = document.getElementById('img_pokemon');
-        console.log(j.sprites.front_default);
         img_namePokemon.style.width = "300px";
         img_namePokemon.style.height = "300px";
        
