@@ -21,7 +21,7 @@ async function pokemondle_SearchForName(name_pokemon){
         img_namePokemon.style.height = "300px";
         console.log(data);
 
-        img_namePokemon.src = data.sprites.versions.generation-v.black-white.animated.front_default;
+        img_namePokemon.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
      
     })
 }
