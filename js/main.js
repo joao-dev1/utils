@@ -1,5 +1,11 @@
-import {clearWhiteSpacesAndToLower} from "utils.js";
+// import {clearWhiteSpacesAndToLower} from "utils.js";
 
+
+function clearWhiteSpacesAndToLower(str){
+    
+    return str.replace(/\s/g, '').toLowerCase();
+    
+}
 
 async function pokemondle_SearchForName(name_pokemon){
 
